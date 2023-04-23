@@ -7,10 +7,11 @@ print(cpr)
 print('\033[31m P/s : Mỗi lần Cron Chỉ Được 3 Link Nên Anh Em Cron Nhiều Hơn Thì Đa Tab Ra Nhé ! ' )
 momo=input('\033[1;37mLink Cron Momo \n=>\033[33m')
 bank= input('\033[1;37mLink Cron Bank\n=>\033[33m')
-tsr= input('\033[1;37mLink Cron TSR \n =>\033[33m')
+tsr= input('\033[1;37mLink Cron TSR \n=>\033[33m')
 kgh= int(input('\033[37mBao Nhiêu Job Thì Dừng\n \033[1;37m○Job :\033[33m'))
 delay=int(input('\033[1;37mDelay :\033[33m '))
 os.system('clear')
+print(cpr)
 count = 0
 bd = 0
 while (count <= kgh):
