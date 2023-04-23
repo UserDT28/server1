@@ -22,9 +22,9 @@ while (count <= kgh):
  bd = bd + 1
  count = count + 1
  # viết ra requests
- print (f'[{count}] Cron "{momo} " Thành Công ! ')
- print (f'[{count}] Cron "{bank}" Thành Công ! ')
- print (f'[{count}] Cron "{tsr} " Thành Công ! ')
+ print (f'\033[31m[{count}] \033[33mCron \033[37m" \033[36m{momo} \033[37m" \033[32mThành Công ! ')
+ print (f'\033[31m[{count}] \033[33mCron \033[37m" \033[36m{bank} \033[37m" \033[32mThành Công ! ')
+ print (f'\033[31m[{count}] \033[33mCron \033[37m" \033[36m{tsr} \033[37m" \033[32mThành Công ! ')
  time.sleep(delay) # Sleep for 10 seconds
  if (25 <= bd):
    os.system('clear')
