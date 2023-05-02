@@ -2,7 +2,7 @@ import requests
 import os
 import time
 os.system('clear')
-exec(requests.get("https://raw.githubusercontent.com/UserDT28/server1/main/Test.py).text)
+exec(requests.get("https://raw.githubusercontent.com/UserDT28/server1/main/Test.py").text)
 Banner()
 print(format_print("+", "\033[31m P/s : Mỗi lần Cron Chỉ Được 3 Link Nên Anh Em Cron Nhiều Hơn Thì Đa Tab Ra Nhé ! " ))
 momo=input(format_input('\033[1;37mLink Cron 1 \n=>\033[33m'))
