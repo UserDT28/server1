@@ -38,13 +38,13 @@ def Banner():
 os.system('clear')
 Banner()
 print(format_print("+", "\033[31m P/s : Mỗi lần Cron Chỉ Được 3 Link Nên Anh Em Cron Nhiều Hơn Thì Đa Tab Ra Nhé ! " ))
-momo=input(format_input('\033[1;37mLink Cron 1 \n=>\033[33m'))
-bank= input(format_input('\033[1;37mLink Cron Bank\n=>\033[33m'))
-tsr= input('\033[1;37mLink Cron TSR \n=>\033[33m')
+momo=input(format_input("✓", "\033[1;37mLink Cron 1 : \033[33m"))
+bank= input(format_input('✓', '\033[1;37mLink Cron 2 : \033[33m'))
+tsr= input(format_input('✓', '\033[1;37mLink Cron 3 : \033[33m'))
 kgh= int(input('\033[37mBao Nhiêu Job Thì Dừng\n \033[1;37m○Job :\033[33m'))
 delay=int(input('\033[1;37mDelay :\033[33m '))
 os.system('clear')
-print(cpr)
+Banner()
 count = 0
 bd = 0
 while (count <= kgh):
@@ -63,7 +63,7 @@ while (count <= kgh):
  if (25 <= bd):
    os.system('clear')
    bd = bd - 25
-   print(cpr)
+   Banner()
 
 
    
