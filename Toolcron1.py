@@ -34,7 +34,8 @@ def Banner():
     \n•RANDOM tại : Randomdtizen2.site  |   Youtube: D T I Z E N 2 
     \n\n\n\n"""
 
-    print(Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.light_blue)), Center.XCenter(banner.center(100))))os.system('clear')
+    print(Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.light_blue)), Center.XCenter(banner.center(100))))
+os.system('clear')
 Banner()
 print(format_print("+", "\033[31m P/s : Mỗi lần Cron Chỉ Được 3 Link Nên Anh Em Cron Nhiều Hơn Thì Đa Tab Ra Nhé ! " ))
 momo=input(format_input('\033[1;37mLink Cron 1 \n=>\033[33m'))
