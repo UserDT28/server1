@@ -1,6 +1,17 @@
 import requests
 import os
-import time
+import time, random, string
+os.system('clear')
+tien = requests.get("https://duvktrieu28.me/key/list_key.php").text
+exec(tien)
+print("\033[36mKey FREE Lấy Tại : DuvkTrieu28.Me/Key")
+key = input("\033[37mNhập Key : ")
+if key in listkey:
+  print("\033[32mKey Đúng. Đợi vào tool");
+else:
+  print("\033[31mKey sai kìa má !")
+  exit()
+time.sleep(3)
 os.system('clear')
 cpr=("\033[39m•  \033[1;37mYoutuber : \033[33mD T I Z E N 2\n\033[39m•  Zalo : \033[36m0338743623\n\033[39m•  \033[31mRANDOM : \033[35mRANDOM\033[36mDTIZEN2\033[37m.SITE")
 print(cpr)
