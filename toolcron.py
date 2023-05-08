@@ -7,6 +7,7 @@ print(cpr)
 print('='*60)
 print('1 - TOOL CRON JOBS')
 print('2 - TOOL SPAM SMS')
+print('3 - TOOL DDOS V1')
 print('='*60)
 Requestsjob = int(input('\033[1;37mChọn Số\n =>'))
 if ( Requestsjob == 1 ):
